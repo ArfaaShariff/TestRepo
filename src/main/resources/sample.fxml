@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="600.0" maxWidth="600.0" minHeight="600.0"
+            minWidth="600.0" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="paddy.domain.Controller">
+   <children>
+      <TextField fx:id="albumName" layoutX="312.0" layoutY="119.0" />
+      <TextField fx:id="artistName" layoutX="312.0" layoutY="194.0" />
+      <Label layoutX="131.0" layoutY="123.0" text="AlbumTitle" textFill="#dd7474" />
+      <Label layoutX="137.0" layoutY="207.0" text="Artist Name" />
+      <Button layoutX="241.0" layoutY="278.0" mnemonicParsing="false" onAction="#save" text="save" />
+      <Label layoutX="286.0" layoutY="33.0" text="HELLO">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
